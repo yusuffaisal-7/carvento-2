@@ -8,12 +8,12 @@ function App() {
   const [isBusinessCustomer, setIsBusinessCustomer] = useState(false);
   const [selectedOption, setSelectedOption] = useState<FinanceOption>('finance1');
   const [financeDetails, setFinanceDetails] = useState<FinanceDetails>({
-    monthlyRate: 99,
-    downPayment: 3600,
-    finalRate: 5400,
+    monthlyRate: 140.16,
+    downPayment: 2600,
+    finalRate: 3900,
     duration: 48,
-    totalPrice: 18000,
-    productName: 'MINI onD'
+    totalPrice: 13000,
+    productName: 'Golf 7 TDI'
   });
 
   const handleStartRequest = () => {
